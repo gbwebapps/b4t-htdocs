@@ -1,0 +1,254 @@
+/* Fonts */
+@font-face { 
+	font-family: Comfortaa; 
+	src: url(../../fonts/Comfortaa/Comfortaa-Light.ttf); 
+}
+
+@font-face { 
+	font-family: Raleway; 
+	src: url(../../fonts/Raleway/Raleway-Light.ttf); 
+}
+
+@font-face { 
+	font-family: Montserrat; 
+	src: url(../../fonts/Montserrat/Montserrat-Light.ttf); 
+}
+
+/* Tags */
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+textarea {
+    resize: none;
+}
+
+a:active, 
+a:hover,
+a:visited,  
+a:focus {
+    text-decoration: none!Important;
+}
+
+/* Menu */
+.navbar-nav .nav-link {
+    font-weight: 700;
+}
+
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: .5rem;
+}
+
+/* Home Page Carousel */
+.top-content {
+    width: 100%;
+    padding: 0;
+}
+ 
+.top-content .carousel-control-prev {
+    border-bottom: 0;
+}
+ 
+.top-content .carousel-control-next {
+    border-bottom: 0;
+}
+ 
+.top-content .carousel-caption {
+    padding-bottom: 60px;
+}
+ 
+.top-content .carousel-caption h1 {
+    padding-top: 60px;
+    color: #fff;
+}
+ 
+.top-content .carousel-caption h3 {
+    color: #fff;
+}
+ 
+.top-content .carousel-caption .carousel-caption-description {
+    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
+}
+ 
+.top-content .carousel-indicators li {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.top-content .carousel-item {
+    height: 100vh;
+    min-height: 400px;
+}
+ 
+.top-content .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Home page marketing */
+.featurette-divider {
+    margin: 5rem 0;
+}
+
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+.footer {
+    background-color: #e9ecef;
+    border-top: 1px solid #e5e5e5;
+}
+
+/* Sections */
+.jumbotron {
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 0;
+}
+
+.mt45rem {
+	margin-top:  4.5rem;
+}
+
+#events {
+    margin-bottom: 2rem;
+}
+
+.featurette-divider-2 {
+    margin: 2.5rem 0;
+}
+
+/* Scrollup */
+.scrollup {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    text-align: center;
+    z-index: 100;
+    display: none;
+}
+
+/* Show Loader */
+#showLoader {
+   position: fixed;
+   top: 8.3%;
+   left: 50%;
+   transform: translateX(-50%);
+   padding: .2rem .5rem;
+   background: white;
+   box-shadow: 0 0 0.2rem rgba(0, 0, 0, .2);
+   display: none;
+   z-index: 9999;
+}
+
+/* Pagination */
+.pagination_left, 
+.pagination_right, 
+.pagination {
+    padding-top: .25rem;
+}
+
+.pagination_left, 
+.header_left {
+    text-align: left;
+}
+
+.pagination_right, 
+.header_right {
+    text-align: right;
+}
+
+.header_left, 
+.header_right {
+    padding-top: .25rem;
+}
+
+.btn-link, 
+.btn-link:active, 
+.btn-link:hover,
+.btn-link:visited,  
+.btn-link:focus {
+    text-decoration: none!Important;
+}
+
+.btn-link {
+    padding-right:  0;
+}
+
+.jumbotron-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.custom-checkbox label, 
+.form-check label {
+    cursor: pointer;
+}
+
+@media (min-width: 40em)
+    .featurette-heading {
+        font-size: 50px;
+}
+
+@media (min-width: 62em)
+    .featurette-heading {
+        margin-top: 7rem;
+}
+
+@media (max-width: 767px) {
+ 
+    h1, h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+ 
+    .top-content .carousel-caption {
+        bottom: 20px;
+    }
+ 
+    .top-content .carousel-indicators {
+        display: none;
+    }
+
+    .pagination_left {
+        text-align: center;
+        padding-bottom: 1rem;
+        padding-top: 0;
+    }
+
+    .pagination_right {
+        text-align: center;
+        padding-top: .25rem;
+    }
+ 
+}
+ 
+@media (max-width: 575px) {
+ 
+    .top-content .carousel-caption {
+        bottom: 0;
+        padding-bottom: 20px;
+    }
+ 
+    .top-content .carousel-caption-description {
+        display: none;
+    }
+ 
+    .top-content h1, 
+    .top-content h2, 
+    .top-content h3 {
+        font-size: 18px;
+    }
+ 
+}
